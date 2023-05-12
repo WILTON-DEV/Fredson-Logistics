@@ -7,6 +7,7 @@ import HomeComponent5 from "../components/HomeComponent5";
 import HomeComponent6 from "../components/HomeComponent6";
 import HomeComponent7 from "../components/HomeComponent7";
 import Companies from "../components/Companies";
+// import HeadScroll from '../components/HeadScroll';
 
 function Home() {
     const companyDetails = [
@@ -30,8 +31,9 @@ function Home() {
     },
   ];
   return (
-    <div>
-      <Head />
+    <div className="relative">
+      <Head/>
+      {/* <HeadScroll /> */}
       <HomeComponent1 />
       <HomeComponent2 />
       <HomeComponent3 />
