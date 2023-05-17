@@ -66,7 +66,7 @@ function CustomerComponent1() {
         </div>
         <div className="bg-gray-400 w-1/2 h-full flex justify-end">
           <div className="h-full w-1/4 bg-cyan-950 text-white font-bold flex items-center justify-center rounded-3xl"></div>
-          <div className="h-full w-1/4 bg-orange-950 text-white font-bold flex items-center justify-center rounded-3xl"></div>
+          <div className="h-full w-1/4 bg-[#be2117] text-white font-bold flex items-center justify-center rounded-3xl"></div>
         </div>
       </div>
       <div className="shadow-md h-full w-full flex  ">

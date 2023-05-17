@@ -9,6 +9,7 @@ import HomeComponent7 from "../components/HomeComponent7";
 import Companies from "../components/Companies";
 // import HeadScroll from '../components/HeadScroll';
 
+
 function Home() {
     const companyDetails = [
     {
@@ -31,7 +32,7 @@ function Home() {
     },
   ];
   return (
-    <div className="relative">
+    <div className="relativeg">
       <Head/>
       {/* <HeadScroll /> */}
       <HomeComponent1 />
@@ -44,6 +45,7 @@ function Home() {
         <Companies name={name} key={name}/> 
       ))}</div>
       <HomeComponent7 />
+    
     </div>
   )
 }

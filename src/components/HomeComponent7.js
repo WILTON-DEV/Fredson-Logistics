@@ -5,7 +5,7 @@ import Image7 from "../images/image7.jpg";
 
 function HomeComponenet7() {
   return (
-    <div className=" relative h-[70vh] bg-red-600 ">
+    <div className=" relative h-[70vh] bg-[#be2117] ">
       <div className="absolute top-0 left-0 h-full w-full z-10">
         <img src={Image7} alt="image" className="w-full h-full object-cover" />
       </div>

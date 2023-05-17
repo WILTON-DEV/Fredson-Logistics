@@ -35,7 +35,7 @@ function HomeComponent6({ name, tittle, text }) {
       <div className="absolute top-0 left-0 h-full w-full bg-[#06070E]/90 z-30 flex ">
             <div className="flex flex-col items-center justify-center p-8 w-1/2 h-full ">
         <div className="flex flex-col justify-between h-1/2 ">
-          <p className="text-[20px] font-extrabold text-red-400">
+          <p className="text-[20px] font-extrabold text-[#be2117]">
             Welcome to freight Services
           </p>
 

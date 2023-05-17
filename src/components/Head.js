@@ -1,6 +1,7 @@
 import { BsWhatsapp } from "react-icons/bs";
 import { GoMailRead } from "react-icons/go";
 import { IoLocationOutline } from "react-icons/io5";
+import Link from "./Link";
 
 function Head() {
   return (
@@ -46,20 +47,20 @@ function Head() {
         </div>
         <div className="flex justify-between ">
           <div className="flex items-center justify-evenly flex-1 bg-white/30 backdrop-blur-md  h-[10vh] rounded-tl-2xl ">
-            <a className=" font-bold hover:font-bold hover:cursor-pointer hover:text-white">
+            <Link  to='/'>
               Home
-            </a>
-            <a className="font-bold hover:font-bold hover:cursor-pointer hover:text-white">
+            </Link>
+            <Link  to='/about'>
               About
-            </a>
-            <a className="font-bold hover:font-bold hover:cursor-pointer hover:text-white">
-              Services
-            </a>
-            <a className="font-bold hover:font-bold hover:cursor-pointer hover:text-white">
+            </Link>
+            <Link  to='/service'>
+              Service
+            </Link>
+            <Link  to='/gallery'>
               Gallery
-            </a>
+            </Link>
           </div>
-          <a className="flex items-center justify-center bg-red-950 h-full w-48 hover:bg-gray-950  hover:text-white hover:cursor-pointer text-[25px] font-bold text-gray-400 ">
+          <a className="flex items-center justify-center bg-[#be2117] h-full w-48 hover:bg-gray-950  hover:text-white hover:cursor-pointer text-[25px] font-bold text-gray-400 ">
             Start
           </a>
         </div>

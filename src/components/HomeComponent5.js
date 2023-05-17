@@ -7,7 +7,7 @@ function HomeComponent5() {
   return (
     <div className=" h-[100vh]  flex justify-between py-4 px-2">
         <div className="flex flex-col justify-evenly w-1/4 h-full py-2 px-4  bg-[#262a38]/30 backdrop-blur-md border-2 border-white/40 text-white shadow-md rounded-3xl">
-          <p className="text-[15px] font-extrabold text-red-400">
+          <p className="text-[15px] font-extrabold text-[#be2117]">
             Welcome to freight Services
           </p>
 

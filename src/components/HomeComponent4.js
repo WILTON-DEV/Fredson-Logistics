@@ -3,8 +3,8 @@ import DiscoverButton from "./DiscoverButton";
 
 function HomeComponent4() {
   return (
-    <div className="relative h-[600px] bg-cyan-600 ">
-      <div className="absolute top-0 left-0 bg-red-900 h-full w-full ">
+    <div className="relative h-[600px] bg-[#be2117] ">
+      <div className="absolute top-0 left-0 bg-[#be2117] h-full w-full ">
         <img
           src={Image6}
           className="object-cover h-full w-full"
@@ -12,7 +12,7 @@ function HomeComponent4() {
         />
       </div>
       <div className="absolute flex flex-col items-center justify-center  font-bold text-white  bg-gray-950/90 top-0 left-0 h-full w-full px-[300px] z-10">
-        <p className="text-red-400 mb-2">Become a Volunteers</p>
+        <p className="text-[#be2117] mb-2">Become a Volunteers</p>
         <p className="mb-2 text-[50px] text-center">
           Join your hand with us for a better life and future
         </p>

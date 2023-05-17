@@ -11,7 +11,7 @@ function Card4({name, tittle, text, image}) {
           <p className="my-8 text-gray-500">{text}</p>
           <h4 className='text-[20px] font-extrabold'>{name}</h4>
           <p className='text-cyan-400'>{tittle}</p>
-          <div className="flex items-center justify-between w-1/2 h-8 bg-red-950 rounded-full mb-[-23px] text-[25px] text-white px-4 ">
+          <div className="flex items-center justify-between w-1/2 h-8 bg-[#be2117] rounded-full mb-[-23px] text-[25px] text-white px-4 ">
             <div>*</div>
             <div>*</div>
             <div>*</div>

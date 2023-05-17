@@ -1,5 +1,5 @@
 import React from 'react'
-import Image8 from '../images/image8.jpg';
+// import Image8 from '../images/image8.jpg';
 import {AiOutlineStar} from 'react-icons/ai';
 
 function SelectedGoods({name, price, image}) {
@@ -21,7 +21,7 @@ function SelectedGoods({name, price, image}) {
           <p className='text-gray-400'>{price}</p>
         </div>
         <div className='w-full h-full flex items-center justify-end'>
-          <button className='h-[6vh] w-[6vh] flex items-center justify-center text-white bg-red-950 p-4 rounded-full'>---</button>
+          <button className='h-[6vh] w-[6vh] flex items-center justify-center text-white bg-[#be2117] p-4 rounded-full'>---</button>
         </div>
       </div>
     </div>

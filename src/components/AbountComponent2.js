@@ -44,15 +44,15 @@ function AboutComponent2() {
         </div>
         <div>
           <div className=" flex items-center py-2">
-            <div className="bg-red-900 w-4 h-4 rounded-full text-white flex place-items-center justify-center ">+</div>
+            <div className="bg-[#be2117] w-4 h-4 rounded-full text-white flex place-items-center justify-center ">+</div>
             <p className="px-2">Proin sed magna vel mi suscipit commodo.</p>
           </div>
           <div className="flex items-center py-2">
-            <div className="bg-red-900 w-4 h-4 rounded-full text-white flex place-items-center justify-center ">+</div>
+            <div className="bg-[#be2117] w-4 h-4 rounded-full text-white flex place-items-center justify-center ">+</div>
             <p className="px-2">Proin sed magna vel mi suscipit commodo.</p>
           </div>
           <div className="flex items-center py-2">
-            <div className="bg-red-900 w-4 h-4 rounded-full text-white flex place-items-center justify-center ">+</div>
+            <div className="bg-[#be2117] w-4 h-4 rounded-full text-white flex place-items-center justify-center ">+</div>
             <p className="px-2">Proin sed magna vel mi suscipit commodo.</p>
           </div>
         </div>

@@ -1,14 +1,20 @@
-// import About from "./pages/About";
+import About from "./pages/About";
 import Home from "./pages/Home";
-// import CustomerPage from "./pages/CustomerPage";
-
+import CustomerPage from "./pages/CustomerPage";
+import Route from "./components/Route";
 
 function App() {
   return (
-    <div className="h-screen w-full  ">
-      <Home />
-      {/* <About /> */}
-      {/* <CustomerPage /> */}
+    <div>
+      <Route path="/">
+        <Home />
+      </Route>
+      <Route path="/about">
+        <About />
+      </Route>
+      <Route path="/customer">
+        <CustomerPage />
+      </Route>
     </div>
   );
 }
