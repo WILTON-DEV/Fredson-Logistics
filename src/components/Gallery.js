@@ -16,7 +16,7 @@ function Gallery({Image}) {
         </div>
       </div>
       <div className=" bg-gradient-to-t from-gray-950 h-[90vh] w-full mt-4 flex items-center justify-between flex-wrap">
-        <div className="h-[25vh] w-1/4 p-4"> 
+        <div className="h-[25vh] w-1/4 p-4 "> 
           <img src={Image} alt='Gallery Image' className="h-full w-full object-cover rounded-3xl" />
         </div>
       </div>

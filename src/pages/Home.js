@@ -8,6 +8,7 @@ import HomeComponent6 from "../components/HomeComponent6";
 import HomeComponent7 from "../components/HomeComponent7";
 import Companies from "../components/Companies";
 // import HeadScroll from '../components/HeadScroll';
+import Image5 from '../images/image5.jpg'
 
 
 function Home() {
@@ -33,9 +34,7 @@ function Home() {
   ];
   return (
     <div className="relativeg">
-      <Head/>
-      {/* <HeadScroll /> */}
-      <HomeComponent1 />
+      <HomeComponent1 image={Image5} text='WORLD WIDE FREIGHT SERVICES'/>
       <HomeComponent2 />
       <HomeComponent3 />
       <HomeComponent4 /> 

@@ -11,10 +11,10 @@ function AboutComponent3() {
     },
   ];
   return (
-    <div className="h-[100vh] flex flex-col items-center justify-evenly py-8">
+    <div className="h-[120vh] flex flex-col items-center justify-evenly py-8">
       <div className=" w-3/4 flex flex-col items-center justify-center">
               <p className="text-[#be2117]">Our testimonials</p>
-      <h3 className="text-[50px] font-extrabold">What they are talking about oxpins</h3>
+      <h3 className="text-[50px] font-extrabold text-white">What they are talking about oxpins</h3>
       </div>
       <div className="flex items-center justify-evenly h-3/4 w-full">
                  <Card4

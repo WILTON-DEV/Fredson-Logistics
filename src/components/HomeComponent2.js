@@ -1,22 +1,22 @@
 import React from "react";
-import Image1 from "../images/image1.jpg";
+import Image9 from "../images/image9.jpg";
 import DiscoverButton from "./DiscoverButton";
 
 function HomeComponent2() {
   return (
-    <div className="relative flex p-2  h-[90vh] z-50">
+    <div className="relative flex p-2  h-[90vh] top-0 ">
       <div className="relative h-full w-1/2 flex flex-col ">
         <div className=" absolute top-5 left-[70px] h-[85vh] w-[450px] rounded-b-full border-8 border-[#be2117] z-10 "></div>
         <div className="absolute top-20 left-[100px] h-[85vh] w-[450px] rounded-b-full rounded-tr-full p-2">
           <img
             className="w-full  h-full object-cover rounded-b-full rounded-tr-full border-2 border-gray-200 hover:scale-200  cursor-pointer transition duration-200"
-            src={Image1}
+            src={Image9}
             alt="Image 1"
           />
         </div>
       </div>
 
-      <div className="flex flex-col justify-evenly w-1/2 h-[85vh] p-8 bg-[#262a38]/30  border-white/40 backdrop-blur-md border-2 shadow-2xl rounded-2xl text-white">
+      <div className="flex flex-col justify-evenly w-1/2 h-[85vh] p-8 bg-[#262a38]/30  border-white/40 backdrop-blur-md border-2 shadow-2xl rounded-2xl text-white ">
         <div>
           <p className="text-[15px] font-extrabold text-[#be2117]">
             Welcome to freight Services

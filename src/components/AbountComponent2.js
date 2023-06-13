@@ -5,17 +5,17 @@ import DiscoverButton from "./DiscoverButton";
 
 function AboutComponent2() {
   return (
-    <div className="flex ">
+    <div className="flex h-[90vh] p-4">
       <div className="relative h-full w-1/2 flex flex-col p-4">
-        <div className=" absolute top-20 left-[13vh] h-[80vh] w-3/4 border-8 border-red-900 rounded-3xl"></div>
-        <div className="absolute top-40 left-[12vw] h-[80vh] w-3/4 rounded-b-full p-2 z-10">
+        <div className=" absolute top-20 left-[13vh] h-[85vh] w-3/4 border-8 border-[#be2117] rounded-3xl z-10"></div>
+        <div className="absolute top-40 left-[12vw] h-[80vh] w-3/4 rounded-b-full p-2 z-20">
           <img
             className="w-full  h-full object-cover border-gray-200 hover:scale-200  cursor-pointer transition duration-200 rounded-3xl"
             src={Image7}
             alt="Image 1"
           />
         </div>
-          <div className="absolute top-[-10vh] h-[80vh] w-3/4 rounded-b-full p-4 z-20 ">
+          <div className="absolute top-[-10vh] h-[80vh] w-3/4 rounded-b-full p-4 z-30 ">
           <img
             className="w-full  h-full object-cover border-gray-200 hover:scale-200  cursor-pointer transition duration-200 rounded-3xl"
             src={Image1}
@@ -24,9 +24,9 @@ function AboutComponent2() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-evenly w-1/2 h-[750px] p-8 ">
+      <div className="flex flex-col justify-evenly w-1/2  p-8  bg-[#262a38]/30  border-white/40 backdrop-blur-md border-2 shadow-2xl rounded-2xl text-white ">
         <div>
-          <p className="text-[15px] font-extrabold text-red-900">
+          <p className="text-[15px] font-extrabold text-">
             Welcome to freight Services
           </p>
 

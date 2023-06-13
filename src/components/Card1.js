@@ -17,12 +17,13 @@ function Card1() {
           </p>
         </div>
         <div class="flex flex-col justify-center h-[80px] rounded-lg  bg-white/30 backdrop-blur-md border-2 border-white/40 p-4 ">
-          <input
+          <input type="range" min={0} max="100" value="40" className="range range-info" />
+          {/* <input
             id="large-range"
             type="range"
             value="50"
             className="w-full h-2  accent-cyan-950  rounded-lg appearance-none cursor-pointer mb-1 bg-green-950"
-          ></input>
+          ></input> */}
           <div className="flex items-center justify-between w-full">
             <p>
               $5667 <span className="text-gray-400">Raised</span>

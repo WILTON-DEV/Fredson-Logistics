@@ -5,7 +5,7 @@ import Route from "./components/Route";
 
 function App() {
   return (
-    <div>
+    <div className="bg-[#06070E]">
       <Route path="/">
         <Home />
       </Route>

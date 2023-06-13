@@ -4,7 +4,7 @@ import Image2 from "../images/image2.jpg";
 
 function card2() {
   return (
-    <div className="relative h-3/4 w-[300px] transition-all duration-75 delay-75 ease-in-out  hover:scale-105 ">
+    <div className="relative h-3/4 w-[300px] transition-all duration-75 delay-75  hover:scale-105 ">
       <div className="absolute top-0 left-0 w-full h-full  rounded-[50px] border-2 border-white">
         <img
           src={Image2}
